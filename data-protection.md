@@ -1,39 +1,79 @@
 # Personal Data Protection
 
-TeachUp may process your personal data for the purposes specified in this Privacy Policy.
-
-The personal data of users collected and used by TeachUp in particular, are as follows: your name and surname, e-mail address, phone number which we will receive once you contact TeachUp Developer, facial feature data you have uploaded to TeachUp applications and identifier for advertisers designated in your mobile device used in accessing our services (The Identifier for Advertisers-IDFA), identifier for vendors/developers designated your mobile device (The Identifier for Vendors-IDVF) and Internet Protocol Address-IP Address).
+TeachUp processes your personal data solely for the purposes described in this document, in compliance with applicable data protection laws.
 
 ---
 
-## Data Categories and Data Types
+## Data We Collect
 
-| Category | Data Type |
-|---|---|
-| Identity Information | Name and surname |
-| Contact Information | Phone number, e-mail address |
-| Process Security | Internet traffic data (network movements, IP address, visit data, time and date information), device name, In-app purchase history, IDFA (with permission), IDVF |
-| Visual Records | Facial feature data |
-| Customer Transaction | Order information |
-| Marketing Data | IDFA, IDVF |
+| Category | Data Type | Purpose |
+|---|---|---|
+| Identity | Name and surname | Student profile management |
+| Contact | Phone number, e-mail address | User authentication, student contact info |
+| Educational | Lesson names, schedules, attendance records | Core app functionality |
+| Financial | Payment dates, payment amounts, payment status | Payment tracking feature |
+| Technical | IP address, device name, app usage logs, crash data | App stability and Firebase sync |
+| Purchase | In-app subscription history | Subscription management via RevenueCat |
+
+**We do NOT collect:**
+- Photos or any visual/facial data
+- GPS or location data
+- Device contacts
+- Advertising identifiers (IDFA)
+- Any biometric data
+
+---
+
+## Legal Basis for Processing
+
+We process your data based on:
+- **Contractual necessity** — to provide the TeachUp service you signed up for
+- **Legitimate interests** — to improve app performance and fix bugs
+- **Your consent** — for optional notifications (attendance reminders, payment alerts, birthday reminders)
 
 ---
 
 ## How We Use Your Information
 
-We use your information for a variety of business purposes, including to provide our Services, for administrative purposes, and to market our products and Services, as described below. We do not store any selfies, photos, or facial features on our servers. Your photos are only processed by our service provider (Replicate API) for the purpose of generating the requested AI character. Replicate temporarily stores the data for a maximum of 1 hour, after which it is automatically deleted.
-
-- **(a)** Providing face picture to Replicate API for AI photo creation. Face data is only used to generate the requested output. We do not retain any face data on our servers. Replicate stores the data for a maximum of 1 hour, after which it is automatically deleted. We do not share face data with any other third parties, and face data is never used for any other purpose.
-- **(b)** Managing your information and accounts;
-- **(c)** Providing access to certain areas, functionalities, and features of our Services;
-- **(d)** Answering requests for customer or technical support;
-- **(e)** Communicating with you about your account, activities on our Services, and policy changes; and
-- **(f)** Processing your financial information and other payment methods for products or Services purchased.
+- **(a)** Managing your account and syncing data across your devices
+- **(b)** Providing access to lesson management, student tracking, and attendance features
+- **(c)** Sending local push notifications for payment due dates, attendance reminders, and student birthdays (only if you enable these)
+- **(d)** Processing subscription payments securely via RevenueCat
+- **(e)** Generating monthly attendance and payment reports (PDF/CSV)
+- **(f)** Responding to customer support requests
+- **(g)** Improving app stability via anonymous crash reports
 
 ---
 
-## Contact Us
+## Data Processors
 
-If you have any questions about our data protection practices, please contact us:
+| Processor | Data Shared | Location | Policy |
+|---|---|---|---|
+| Google Firebase | Account email, lesson/student/attendance/payment data | USA (with EU adequacy safeguards) | [Firebase Privacy](https://firebase.google.com/support/privacy) |
+| RevenueCat | Purchase history, app user ID | USA | [RevenueCat Privacy](https://www.revenuecat.com/privacy) |
+
+---
+
+## Data Retention
+
+- Your data is retained as long as your account remains active
+- You can delete all data at any time: **Settings → Data Management → Delete All Data**
+- Upon account deletion, all data is permanently removed from Firebase servers
+
+---
+
+## Your Rights
+
+You have the right to:
+- **Access** the personal data we hold about you
+- **Correct** inaccurate data
+- **Delete** your data at any time via the app or by contacting us
+- **Withdraw consent** for notifications at any time in device Settings
+
+---
+
+## Contact
+
+For any data protection inquiries:
 
 **Email:** ahmetozdemircy@gmail.com
