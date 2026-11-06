@@ -6,7 +6,7 @@ This page informs visitors regarding our policies with the collection, use, and 
 
 If you choose to use our Service, you agree to the collection and use of information in relation to this policy. The Personal Information we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.
 
-This policy is effective as of **2024-01-01**
+This policy is effective as of **2024-01-01** · Last updated: **2026-11-06**
 
 ---
 
@@ -36,16 +36,20 @@ To provide our Service, we collect the following information:
 - Payment records and payment dates
 
 ### Technical Data (collected automatically)
-- Device name and operating system version
-- App usage logs and crash reports (via Firebase Crashlytics)
+- Device model and operating system version
+- App usage and interaction events — for example screens viewed, features used and subscription screen views (via Google Analytics for Firebase)
+- A random app instance identifier generated for each installation (via Google Analytics for Firebase)
+- Approximate location (country/city level) derived from your IP address (via Google Analytics for Firebase) — the app never accesses GPS or Location Services
 - IP address and session data (via Firebase)
-- In-app purchase history (via RevenueCat)
+- In-app purchase and subscription history (via RevenueCat and Google Analytics for Firebase)
 
 **We do not collect:**
 - Photos, selfies, or any visual/facial data
-- Location data
+- Precise (GPS) location — the app does not use Location Services
 - Contacts from your device
 - Any advertising identifiers (IDFA)
+
+We do not use your data for advertising, we do not track you across other companies' apps or websites, and we do not sell your data.
 
 ---
 
@@ -57,7 +61,7 @@ The app uses the following third-party services that may collect information:
 |---|---|---|
 | Firebase Authentication | User login and account management | [Firebase Privacy](https://firebase.google.com/support/privacy) |
 | Firebase Firestore | Cloud data storage and sync | [Firebase Privacy](https://firebase.google.com/support/privacy) |
-| Firebase Crashlytics | Crash reporting and app stability | [Firebase Privacy](https://firebase.google.com/support/privacy) |
+| Google Analytics for Firebase | Anonymous usage statistics to improve the app (no advertising identifiers) | [Firebase Privacy](https://firebase.google.com/support/privacy) |
 | RevenueCat | Subscription and in-app purchase management | [RevenueCat Privacy](https://www.revenuecat.com/privacy) |
 
 ---
@@ -72,7 +76,7 @@ We use the information we collect to:
 - **(d)** Process your subscription payments via RevenueCat
 - **(e)** Generate attendance and payment reports in PDF and CSV formats
 - **(f)** Respond to your support requests
-- **(g)** Improve app performance and fix bugs via crash reports
+- **(g)** Understand how the app is used and improve its features, performance and subscription experience via usage analytics
 
 ---
 

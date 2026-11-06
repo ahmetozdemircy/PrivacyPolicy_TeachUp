@@ -12,12 +12,12 @@ TeachUp processes your personal data solely for the purposes described in this d
 | Contact | Phone number, e-mail address | User authentication, student contact info |
 | Educational | Lesson names, schedules, attendance records | Core app functionality |
 | Financial | Payment dates, payment amounts, payment status | Payment tracking feature |
-| Technical | IP address, device name, app usage logs, crash data | App stability and Firebase sync |
+| Technical | IP address, device model, app instance ID, app usage events, approximate location (derived from IP) | App stability, Firebase sync and usage analytics |
 | Purchase | In-app subscription history | Subscription management via RevenueCat |
 
 **We do NOT collect:**
 - Photos or any visual/facial data
-- GPS or location data
+- Precise GPS location (the app does not use Location Services)
 - Device contacts
 - Advertising identifiers (IDFA)
 - Any biometric data
@@ -41,7 +41,7 @@ We process your data based on:
 - **(d)** Processing subscription payments securely via RevenueCat
 - **(e)** Generating monthly attendance and payment reports (PDF/CSV)
 - **(f)** Responding to customer support requests
-- **(g)** Improving app stability via anonymous crash reports
+- **(g)** Improving the app via usage analytics (Google Analytics for Firebase), without advertising identifiers
 
 ---
 
@@ -49,8 +49,8 @@ We process your data based on:
 
 | Processor | Data Shared | Location | Policy |
 |---|---|---|---|
-| Google Firebase | Account email, lesson/student/attendance/payment data | USA (with EU adequacy safeguards) | [Firebase Privacy](https://firebase.google.com/support/privacy) |
-| RevenueCat | Purchase history, app user ID | USA | [RevenueCat Privacy](https://www.revenuecat.com/privacy) |
+| Google Firebase | Account email, lesson/student/attendance/payment data, app usage events, app instance ID | USA (with EU adequacy safeguards) | [Firebase Privacy](https://firebase.google.com/support/privacy) |
+| RevenueCat | Purchase history, app user ID, Firebase app instance ID | USA | [RevenueCat Privacy](https://www.revenuecat.com/privacy) |
 
 ---
 
